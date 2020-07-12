@@ -1,0 +1,50 @@
+/* font-family Abel*/
+@font-face
+{
+    font-family: Abel;
+    src: url('../fonts/Abel/Abel-Regular.ttf')
+}
+/* font-family Anton*/
+@font-face
+{
+    font-family: Anton;
+    src: url('../fonts/Anton/Anton-Regular.ttf')
+}
+/* font-family josefin*/
+@font-face
+{
+    font-family: josefin;
+    src: url('../fonts/Josefin_Sans/JosefinSans-VariableFont_wght.ttf')
+}
+/* font-family lexend*/
+@font-face
+{
+    font-family: Lexend;
+    src: url('../fonts/Lexend_Deca/LexendDeca-Regular.ttf')
+}
+/* font-family livvic*/
+@font-face
+{
+    font-family: livvic;
+    src: url('../fonts/Livvic/Livvic-Regular.ttf')
+}
+@font-face
+{
+    font-family: Roboto;
+    src: url('../fonts/Roboto/Roboto-Regular.ttf')
+}
+@font-face
+{
+    font-family: Sectar;
+    src: url('../fonts/Sectar/Sectar.otf')
+}
+@font-face
+{
+    font-family: higher-jump;
+    src: url('../fonts/higher-jump/Higher\ Jump.ttf')
+}
+@font-face
+{
+    font-family: th-3 machine;
+    src: url('../fonts/th3-machine/TH3\ MACHINE.ttf')
+}

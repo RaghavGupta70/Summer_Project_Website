@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Gaming Forum Login Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://db.onlinewebfonts.com/c/ce366fe567377fc5597ebfa52b38073f?family=Burbank+Big+Regular" rel="stylesheet" type="text/css>
+  <script src="js/Javascript.js"></script>
+</head>
+
+ <style>
+body {
+  background-image: url('images/background.jpg');
+  background-size: 100% 100%;
+}
+</style> 
+
+<body>
+  <div class="cont">
+    <form name="Sign In">
+      <div class="form sign-in">
+        <h2>Sign In</h2>
+        <label>
+          <span>UserName</span>
+          <input id="userName" type="text" name="UserName" required>
+        </label>
+        <label>
+          <span>Email Address</span>
+          <input id="userEmail" type="email" name="email" required>
+        </label>
+        <label>
+          <span>Password</span>
+          <input id="userPw" type="password" name="password" required>
+        </label>
+        <label>
+          <span>User Type :</span>
+         <select name="user" id="users" required>
+          <option value="Administrator">Administrator</option>
+          <option value="Member">Member</option>
+        </select>
+       </label>
+
+      <button class="submit" onClick=check(this.form) type="button">Sign In</button>
+      <button class="submit1" onClick=guest() type="button">Continue as Guest</button>
+
+        <div class="social-media">
+          <ul>
+       <a href="https://www.facebook.com/"> <li><img src="images/facebook.png"></li> </a>
+       <a href="https://twitter.com/login"> <li><img src="images/twitter.png"></li> </a>
+       <a href="https://www.linkedin.com/home/?originalSubdomain=in"> <li><img src="images/linkedin.png"></li> </a>
+       <a href="https://www.instagram.com/"> <li><img src="images/instagram.png"></li> </a>
+          </ul>
+        </div>
+      </div>
+
+    </form>
+
+    <div class="sub-cont">
+      <div class="img">
+        <div class="img-text m-up">
+          <h2>New here?</h2>
+          <p>Sign up and discover great amount of new opportunities!</p>
+        </div>
+         
+        <div class="img-text m-in">
+          <h2>One of us?</h2>
+          <p>If you already has an account, just sign in. We've missed you!</p>
+        </div>
+       
+     <div class="img-btn">
+         
+          <span class="m-up">Sign Up</span>
+          
+          <span class="m-in">Sign In</span>
+        </div>
+      </div>
+      <form name="Sign Up" action="PROFILE PAGE/profile.html">
+        <div class="form sign-up">
+          <h2>Sign Up</h2>
+          <label>
+            <span>UserName</span>
+            <input id="name" type="text" required>
+          </label>
+          <label>
+            <span>Email</span>
+            <input id="em" type="email" required>
+          </label>
+          <label>
+            <span>Password</span>
+            <input id="pw" type="password" required>
+          </label>
+          <label>
+          <span>User Type :</span>
+         <select name="user" id="user" required>
+          <option value="Administrator">Administrator</option>
+          <option value="Member">Member</option>
+        </select>
+       </label>
+
+
+          <button class="submit" onClick=store(this.form) type="button">Sign Up</button>
+
+        </div>
+    </div>
+    </form>
+
+  </div>
+  <script type="text/javascript" src="script.js"></script>
+
+
+  <script type="text/javascript" src="Javascript.js">
+
+
+</script>
+
+   
+
+
+  
+</body>
+
+</html>

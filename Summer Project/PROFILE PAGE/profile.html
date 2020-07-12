@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+        </title>
+        <link rel="stylesheet" type="text/css" href="profilestyle.css">
+        <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+        
+    </head>
+
+    <body>
+        <div class="backimg">
+        <div class="profile">
+            <img src="profile.jpg">
+                <div class="profiletext">
+                    <span id="username"></span>
+                    <script> document.getElementById("username").innerHTML=localStorage.getItem("name"); </script>
+                    <span id="emailadd"></span>
+                    <script> document.getElementById("emailadd").innerHTML=localStorage.getItem("em"); </script> 
+                    <span id="usertype"></span>
+                    <script> document.getElementById("usertype").innerHTML=localStorage.getItem("user"); </script>
+                    <p>BLOGGER | GAMER</p>
+                    
+                </div>
+                <div class="profilefonts">
+                    <a href="https://www.facebook.com" target=" "><i class="fa fa-facebook-square fa-2x"></i></a>
+            <a href="https://www.instagram.com/?hl=en" target=" "><i class="fa fa-instagram fa-2x"></i></a>
+            <a href="https://www.linkedin.com/signup/cold-join" target=" "><i class="fa fa-linkedin-square fa-2x"></i></a>
+            <a href="https://myaccount.google.com/profile" target=" "><i class="fa fa-google-plus-square fa-2x"></i></a>
+                </div>
+                <button class="btn">Your Posts</button>
+            </div>
+        </div>
+         
+
+        
+    </body>
+</html>
